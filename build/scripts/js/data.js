@@ -10,7 +10,8 @@ const socialNetworks = [
   {name: 'Instagram'},
   {name: 'Twitch'},
   {name: 'Telegram'},
-  {name: 'GitHub'}
+  {name: 'GitHub'},
+  {name: 'Twitter'}
 ]
 
 export { titles, socialNetworks }
