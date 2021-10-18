@@ -4,7 +4,7 @@ const insert = title => document.getElementById(title.id).innerHTML = title.text
 
 titles.forEach( insert )
 
-const pattern = (value, index) => `<li id="${index}"><a href="${value.url}">${value.name}</a></li>`
+const pattern = (value, index) => `<li id="${index}"><a href="${value.url}" target="_blank">${value.name}</a></li>`
 
 const order = (socialNetwork1, socialNetwork2) => {
   if (socialNetwork1.name.length < socialNetwork2.name.length) return 1
