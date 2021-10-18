@@ -22,6 +22,10 @@ a:hover {
   color: aqua;
 }
 
-:visited {
+a:visited {
   color: red;
+}
+
+a:active {
+  color: beige;
 }
